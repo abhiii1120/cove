@@ -6,7 +6,7 @@ let refreshPromise = null;
 
 /**
  * this is our accessToken which lives in a variable in memory not in localstorage.
- * so malicious injected scripts can easily steal it.
+ * so malicious injected scripts can't easily steal it.
  * downside of this is it's gone on page refresh but we have handle that also so dont need to worry about.
  */
 let accessToken = null;
